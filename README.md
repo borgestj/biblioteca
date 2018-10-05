@@ -1,0 +1,17 @@
+Comando para a criação das tabelas no mySQL
+
+CREATE TABLE livros (
+livroId INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+livroNome VARCHAR(100) NOT NULL,
+livroAutor VARCHAR(100) NOT NULL,
+livroAno INT(4) NOT NULL,
+livroLocal VARCHAR(100) NOT NULL
+);
+
+
+CREATE TABLE usuario (
+usuId INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+usuNome VARCHAR(100) NOT NULL,
+usuEmail VARCHAR(100) NOT NULL,
+usuSenha VARCHAR(100) NOT NULL
+);
