@@ -5,7 +5,7 @@
 		
 		//conexão com o banco de dados
 		public function __construct(){
-			$this->conn = new PDO("mysql:host=127.0.0.1;dbname=sistema", "root", "");
+			$this->conn = new PDO("mysql:host=127.0.0.1;dbname=sistema", "root", "root");
 		}
 
 		private function setParams($statement, $parameters = array()){

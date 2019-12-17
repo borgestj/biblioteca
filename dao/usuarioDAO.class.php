@@ -1,5 +1,5 @@
 <?php
-require_once (".\dao\sql.php");
+require_once ("./dao/sql.php");
 
 class UsuarioDAO extends Sql {
 

@@ -1,6 +1,6 @@
 <?php
-	require_once (".\class\livro.class.php");
-	require_once (".\dao\livroDAO.class.php");
+	require_once ("./class/livro.class.php");
+	require_once ("./dao/livroDAO.class.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">

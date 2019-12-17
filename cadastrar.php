@@ -11,8 +11,8 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <?php
-require_once (".\class\livro.class.php");
-require_once (".\dao\livroDAO.class.php");
+require_once ("./class/livro.class.php");
+require_once ("./dao/livroDAO.class.php");
 
 if ( isset($_POST['salvar']) and ($_POST['salvar'] == 'Salvar')) {
 	
